@@ -1,0 +1,174 @@
+#box1 {
+    height: 880px;
+    width: 1840px;
+    background-color: rgb(104, 60, 10);
+    position: relative;
+}
+
+#box2 {
+    height: 840px;
+    width: 900px;
+    background-color: rgb(223, 220, 217);
+    display: flex;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+}
+
+#box3 {
+    height: 840px;
+    width: 900px;
+    background-color: rgb(87, 133, 141);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#btn_new_game {
+	position: absolute;
+    top: 60px;
+    left: 820px;
+}
+
+#new_game  {
+	position: absolute;
+    top: 70px;
+    left: 895px;
+    font-size: x-large;
+    font-family: Lato;
+
+}
+
+#player_1  {
+	position: absolute;
+    top: 150px;
+    left: 300px;
+    font-size: 80px;
+    font-family: Lato;
+}
+
+#btn_player_1  {
+	position: absolute;
+    top: 180px;
+    left: 690px;
+}
+
+#player_2  {
+	position: absolute;
+    top: 150px;
+    left: 1200px;
+    font-size: 80px;
+    font-family: Lato;
+}
+
+#btn_player_2  {
+	position: absolute;
+    top: 180px;
+    left: 1590px;
+}
+
+#score_player_1  {
+	position: absolute;
+    font-size: 120px;
+    top: 250px;
+    left: 415px;
+    color: red;
+    font-family: Lato;
+}
+
+#score_player_2  {
+	position: absolute;
+    font-size: 120px;
+    top: 250px;
+    left: 1315px;
+    color: red;
+    font-family: Lato;
+}
+
+#box_current_1  {
+	position: absolute;
+    background-color: red;
+    top: 600px;
+    left: 350px;
+    height: 150px;
+    width: 250px;
+}
+
+#score_current_1  {
+	position: absolute;
+    top: 655px;
+    left: 440px;
+    font-size: 60px;
+    color: white;  
+    font-family: Lato;
+}
+
+#box_current_2  {
+	position: absolute;
+    background-color: red;
+    top: 600px;
+    left: 1250px;
+    height: 150px;
+    width: 250px;
+}
+
+#score_current_2  {
+	position: absolute;
+    top: 655px;
+    left: 1340px;
+    font-size: 60px;
+    color: white;  
+    font-family: Lato;
+}
+
+#btn_roll_dice  {
+	position: absolute;
+    top: 540px;
+    left: 800px;
+    display: none;
+}
+
+#btn_hold  {
+	position: absolute;
+    top: 630px;
+    left: 830px;
+    display: none;
+}
+
+#roll_dice  {
+	position: absolute;
+    top: 550px;
+    left: 870px;
+    font-size: x-large;
+    font-family: Lato;
+}
+
+#hold {
+	position: absolute;
+    top: 640px;
+    left: 900px;
+    font-size: x-large;
+}
+
+#dice {
+	position: absolute;
+    top: 330px;
+    left: 860px;
+    font-family: Lato;
+}
+
+#current_player_1 {
+    position: absolute;
+    top: 605px;
+    left: 405px;
+    font-size: 30px;  
+    font-family: Lato;
+}
+
+#current_player_2 {
+    position: absolute;
+    top: 605px;
+    left: 1305px;
+    font-size: 30px;  
+    font-family: Lato;
+}
